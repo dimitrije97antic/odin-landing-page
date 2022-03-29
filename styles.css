@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
+
+/* ---restart--- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-family: "Barlow", sans-serif;
+}
+
+img {
+  max-height: 100%;
+}
+
+/* ---remove bulletpoints on lists and reset a links--- */
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.container.flex {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  background-color: #1f2937;
+  padding: 5px 0;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.navbar nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: #e5e7eb;
+}
+
+.navbar a:hover {
+  color: #f9faf8;
+}
+
+.hero {
+  background-color: #1f2937;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 30px 0;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: #3882f6;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #f9faf8;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+.hero .left {
+  padding-right: 100px;
+}
+
+.hero .right {
+  background-color: #e5e7eb;
+  width: 500px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.info {
+  height: 400px;
+}
+
+.info h2 {
+  font-size: 32px;
+  font-weight: 900;
+  background-color: white;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.info .card {
+  width: 200px;
+  height: 200px;
+  border: solid 3px #3882f6;
+  border-radius: 10px;
+}
+
+.info .container {
+  background-color: white;
+}
+
+.info .info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info .info-card p {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote h3,
+.quote p {
+  padding: 0 300px;
+}
+
+.quote h3 {
+  text-align: right;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.sign-up-card {
+  width: 700px;
+  padding: 50px;
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.sign-up h3,
+.sign-up p {
+  color: #f9faf8;
+}
+
+.sign-up .btn {
+  outline: 1px solid #f9faf8;
+}
+
+footer {
+  color: #f9faf8;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #1f2937;
+}
